@@ -21,6 +21,7 @@ header {
     background: linear-gradient(90deg, rgba(243, 243, 243, 0.427) 10%, rgba(244, 200, 182, 0.089) 55%), url(../photos/oliver-timm-haarmann-p6OLZPnq810-unsplash.jpg);
     background-size: cover;
     background-position: 50% 50%;
+    padding-top: 20px;
 }
 nav {
     width: 80%;
@@ -32,12 +33,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0px 40px;
+    z-index: 999;
 }
 .nav-items {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 .logo {
     display: flex;
@@ -47,5 +49,8 @@ nav {
 .banner-content {
     width: 60%;
     min-height: 75vh;
-    background: none;
+    border: none;
+}
+.menu { 
+    display: none;
 }
