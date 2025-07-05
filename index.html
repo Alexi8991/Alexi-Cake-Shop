@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alexi's cake shop</title>
+    <title>Alexi's cafe</title>
     <link
       rel="shortcut icon"
       href="./photos/icons/cake-logo.svg"
@@ -15,41 +15,157 @@
   <body>
     <header>
       <nav>
+        <!-- logo -->
         <a href="/" class="logo">
-          <img src="./photos/icons/cake-logo.svg" width="50" alt="" /><span
-            >Alexi' cake</span
-          >
+          <img src="./photos/icons/cake-logo.svg" width="50" alt="" />
+          <span>Alexi' cafe</span>
         </a>
+
+        <!-- nav-items -->
         <ul class="nav-items">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
-            <a href="" class="btn botton-primary"
-              ><img src="./photos/icons/fb-logo.svg" alt="Facebook"
+            <a href="#" class="">
+              <img src="./photos/icons/fb-logo.svg" alt="Facebook"
             /></a>
           </li>
           <li>
-            <a href="" class="btn botton-primary"
-              ><img src="./photos/icons/ig-logo.svg" alt="Instagram"
+            <a href="#" class="">
+              <img src="./photos/icons/ig-logo.svg" alt="Instagram"
             /></a>
           </li>
           <li>
-            <a href="" class="btn botton-primary"
-              ><img src="./photos/icons/twitter-logo.svg" alt="Twitter"
+            <a href="#" class="">
+              <img src="./photos/icons/twitter-logo.svg" alt="Twitter"
             /></a>
           </li>
         </ul>
+
+        <!-- menu btn -->
         <img src="./photos/icons/menu-logo.svg" class="menu" alt="" />
       </nav>
-      <!-- <div class="banner-content">
-        <h1>Welcome to Alexi's Cafe</h1>
-        <p>Your favorite to delicious cake and drink</p>
-        <a href="#" class="btn btn-secondary">Order Now</a>
-      </div> -->
+
+      <div class="banner-content">
+        <div>
+          <img src="./photos/cake-1.svg" width="20" alt="" />
+          <img src="./photos/cake-2.svg" width="20" alt="" />
+          <img src="./photos/cake-3.svg" width="20" alt="" />
+        </div>
+        <h1>Welcome to AlEXI'Cafe</h1>
+        <p>
+          Your favorite place for delicious cakes and coffee. <br />
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Dolores commodi ut ullam earum alias vitae <br />
+          itaque dicta ipsum at atque!
+        </p>
+        <div class="btn-group">
+          <a href="#" class="btn btn-secondary">Order Now</a>
+          <a href="#" class="btn btn-secondary">Contact</a>
+        </div>
+        <div>
+          <img src="./photos/c-1.svg" width="25" alt="" />
+          <span>&nbsp;</span>
+          <img src="./photos/c-2.svg" width="25" alt="" />
+          <span>&nbsp;</span>
+          <img src="./photos/c-3.svg" width="25" alt="" />
+          <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+          <img src="./photos/c-4.svg" width="25" alt="" />
+          <span>&nbsp;</span>
+          <img src="./photos/c-5.svg" width="25" alt="" />
+        </div>
+      </div>
     </header>
-    <main></main>
+
+    <main>
+      <section id="about">
+        <h2 class="about-title">About Us</h2>
+        <div class="about-section">
+          <div class="about-content">
+            <h3>Our story</h3>
+            <p>
+              Nisi quod eaque sed quos vero temporibus, a debitis id ullam, ab
+              consectetur similique reiciendis distinctio provident aliquid
+              inventore nesciunt suscipit doloribus? Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Sequi, maiores reiciendis! Sequi
+              delectus sed perferendis ipsam quidem tenetur eaque debitis unde,
+              quos excepturi, doloribus exercitationem. Sit vero ipsum quis
+              consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Dolor, quidem. Placeat voluptas sunt laborum, dignissimos
+              eaque, dolorem at saepe provident amet adipisci ipsum eligendi
+              culpa aliquam? Sint minima accusantium numquam?
+            </p>
+            <a href="#" class="btn btn-secondary">Read More</a>
+          </div>
+          <div class="about-image">
+            <img src="./photos/about-img1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="title">Menu</h2>
+        <div class="menu-section">
+          <div class="menu-content flex-2">
+            <h3>Choco Cup Cake</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              minima error culpa? aperiam nesciunt minus repudiandae sed
+              molestiae at ducimus consequatur! Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Voluptatum, voluptate.
+            </p>
+          </div>
+          <div class="menu-image flex-1">
+            <img src="./photos/menu-img-CC1.png" alt="" />
+          </div>
+          <div class="menu-image flex-1">
+            <img src="./photos/menu-img-CC2.png" alt="" />
+          </div>
+        </div>
+        <div class="menu-section">
+          <div class="menu-image flex-2">
+            <img src="./photos/menu-img-RV1.png" alt="" />
+          </div>
+          <div class="menu-content flex-2">
+            <h3>Redvelvet Cake</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+              quidem magni amet beatae, veritatis laboriosam, tempore facilis
+              quo ipsum tenetur distinctio saepe sapiente alias iusto deserunt
+              vel esse consequatur labore. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="menu-image flex-1">
+            <img src="./photos/menu-img-RV2.png" alt="" />
+          </div>
+        </div>
+        <div class="menu-section">
+          <div class="menu-image flex-1">
+            <img src="./photos/menu-img-CH1.png" alt="" />
+          </div>
+          <div class="menu-image flex-1">
+            <img src="./photos/menu-img-CH2.png" alt="" />
+          </div>
+          <div class="menu-content flex-2">
+            <h3>Cheese Cake</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores facere reiciendis animi optio atque, ipsam illum eum
+              mollitia velit quisquam perferendis quos recusandae dolorum
+              eligendi voluptatum illo doloremque necessitatibus. Debitis?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="title">Contact Us</h2>
+      </section>
+    </main>
+
     <footer></footer>
     <script src="js/script.js"></script>
   </body>
