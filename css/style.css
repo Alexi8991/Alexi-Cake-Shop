@@ -188,12 +188,13 @@ section {
 /* Contact */
 
 .contact-container {
-    margin-top: 50px;
+    height: 50vh;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     background: rgb(88, 101, 70);
-    padding: 50px;
+    padding: 20px;
     box-shadow: 2px 2px 4px #241313;
 }
 .contact-section {
@@ -206,18 +207,17 @@ section {
 .contact-form {
     text-align: center;
     font-size: 1.5rem;
+    margin: 10px;
 }        
 form, input {
-    width: 350px;
-    height: 40px;
-    margin: 10px;
     padding: 10px;
+    width: 300px;
+    height: 40px;
+    margin: 6px;
     color: #362b2b;
 }
 textarea {
-    width: 350px;
-    height: 100px;
-    margin: 10px;
+    margin: 6px;
     color: #241313;
 }
 button {
@@ -228,4 +228,30 @@ button {
     border-radius: 4px;
     background: rgb(56, 71, 36);
     color: antiquewhite;
+}
+.footer-section {
+    width: 100%;
+    height: 20vh;
+    background: rgba(108, 97, 90, 0.523);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+}
+.footer-left {
+    width: 80%;
+    margin: 20px;
+}
+.footer-items {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+}
+.footer-right {
+    width: 100%;
+    margin: 20px;
+}
+.footer-right li {
+    display: inline-flex;
+    margin-top: 20px;
 }
