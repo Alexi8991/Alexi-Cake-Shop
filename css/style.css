@@ -6,8 +6,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif sans-serif;
-    color: rgb(52, 16, 16);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 10, 10);
 }
 html { 
     position: relative;
@@ -85,6 +85,7 @@ section {
     justify-content: center;
     height: 100vh ;
     box-shadow: 3px 3px 3px rgb(57, 50, 47);
+    background: rgba(202, 201, 183, 0.523);
     padding: 100px;
     margin-top: 3px;
     gap: 30px;
@@ -172,9 +173,9 @@ section {
 }
 .testimonails-content  {
     font-size: 1.3rem;
-    width: 20%;
+    width: 60%;
     height: 35vh;
-    background: #fff;
+    background: #a9a3a371;
     flex-direction: column;
     padding: 10px;
     gap: 20px;
